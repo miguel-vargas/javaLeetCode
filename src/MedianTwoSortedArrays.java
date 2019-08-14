@@ -1,17 +1,16 @@
-/**
- * Created by Miguel on 7/19/2019.
- */
+import java.util.Arrays;
+
 public class MedianTwoSortedArrays {
-    public static void runMedianTwoArrays() {
+    public static void runMediamTwoArrays() {
         int[] nums1 = new int[]{1,2};
         int[] nums2 = new int[]{3,4};
 
-        double ans = findMedianSortedArrays(nums1, nums2);
-
-        System.out.print(ans);
+        findMedianSortedArrays(nums1, nums2);
     }
 
-    public static double findMedianSortedArrays(int[] nums1,int[] nums2) {
+    // RUNTIME: O(m + n) (lengths of each array)
+    // TARGET RUNTIME: O(log(m + n))
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         double ans = 0;
         int[] mergedArray = new int[nums1.length+nums2.length];
         int i = 0, j = 0, k = 0;
@@ -34,11 +33,8 @@ public class MedianTwoSortedArrays {
 
             return ans;
         }
-
-        int medianIndex = mergedArray.length / 2;
-
+        int medianIndex = (mergedArray.length / 2);
         ans = mergedArray[medianIndex];
         return ans;
     }
 }
-
