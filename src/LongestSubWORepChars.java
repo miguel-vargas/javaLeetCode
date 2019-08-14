@@ -3,7 +3,9 @@ import java.util.Set;
 
 public class LongestSubWORepChars {
     public static void runLongest() {
-        lengthOfLongestSubstring("pwwkew");
+        int ans = lengthOfLongestSubstring("pwwkew");
+
+        System.out.println(ans);
     }
 
     // RUNTIME: O(n)
