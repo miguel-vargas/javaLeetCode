@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        NumIdenticalPairs.runNumIdenticalPairs();
+        DefangIPaddr.runDefangIPaddr();
     }
 
 }
