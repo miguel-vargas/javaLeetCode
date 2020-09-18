@@ -1,3 +1,5 @@
+package Easy;
+
 public class MedianTwoSortedArrays {
     public static void runMediamTwoArrays() {
         int[] nums1 = new int[]{1,2};

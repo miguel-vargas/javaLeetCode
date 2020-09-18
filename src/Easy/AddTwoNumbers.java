@@ -1,3 +1,5 @@
+package Easy;
+
 public class AddTwoNumbers {
     public static void runAddTwoNumbers() {
         ListNode node1 = new ListNode(9);

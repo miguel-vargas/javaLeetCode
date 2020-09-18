@@ -1,3 +1,5 @@
+package Easy;
+
 public class DefangIPaddr {
     public static void runDefangIPaddr(){
         String address = "1.1.1.1";
