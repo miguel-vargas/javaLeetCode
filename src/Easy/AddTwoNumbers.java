@@ -1,5 +1,7 @@
 package Easy;
 
+import Utility.ListNode;
+
 public class AddTwoNumbers {
     public static void runAddTwoNumbers() {
         ListNode node1 = new ListNode(9);
@@ -51,11 +53,4 @@ public class AddTwoNumbers {
         }
         return dummyHead.next;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) { val = x; }
 }
